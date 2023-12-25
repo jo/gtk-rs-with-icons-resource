@@ -3,7 +3,7 @@
   <gresource prefix="/com/github/jo/gtk-rs-with-icons-resource/">
     <file compressed="true" preprocess="xml-stripblanks">window.ui</file>
   </gresource>
-  <gresource prefix="/com/github/jo/gtk-rs-with-icons-resource/icons/scalable/actions/">
-    <file preprocess="xml-stripblanks">icons/people-symbolic.svg</file>
+  <gresource prefix="/com/github/jo/gtk-rs-with-icons-resource/icons/scalable/actions">
+    <file preprocess="xml-stripblanks" alias="people-symbolic.svg">icons/people-symbolic.svg</file>
   </gresource>
 </gresources>
