@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="Window" parent="AdwApplicationWindow">
+    <property name="title">Using Icons Resources</property>
+    <property name="default_width">400</property>
+    <property name="default_height">400</property>
+    <child>
+      <object class="AdwStatusPage">
+        <property name="icon-name">people-symbolic</property>
+        <property name="title">Hello Icons</property>
+        <property name="description">The icon above should be loaded from GResource bundle.</property>
+      </object>
+    </child>
+  </template>
+</interface>
